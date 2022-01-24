@@ -6,7 +6,7 @@
 /*   By: gbaumgar <gbaumgar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 12:05:13 by gbaumgar          #+#    #+#             */
-/*   Updated: 2022/01/24 12:05:59 by gbaumgar         ###   ########.fr       */
+/*   Updated: 2022/01/24 16:07:27 by gbaumgar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ int	ft_sqrt(int nb)
 	int	q;
 	int	r;
 
+	if (nb == 1)
+		return (1);
 	i = 1;
 	while (i < nb)
 	{
